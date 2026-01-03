@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "01/03/2026 21:05:34"
+// Generated on "01/03/2026 22:59:15"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          mux2to1
 // 
@@ -52,17 +52,21 @@ end
 initial
 begin
 	a = 1'b0;
-	a = #40000 1'b1;
-	a = #40000 1'b0;
-	a = #40000 1'b1;
-	a = #40000 1'b0;
+	a = #20000 1'b1;
+	a = #20000 1'b0;
+	a = #20000 1'b1;
+	a = #20000 1'b0;
+	a = #20000 1'b1;
+	a = #20000 1'b0;
+	a = #20000 1'b1;
+	a = #20000 1'b0;
 end 
 
 // b
 initial
 begin
 	b = 1'b0;
-	b = #80000 1'b1;
+	b = #40000 1'b1;
 	b = #40000 1'b0;
 	b = #40000 1'b1;
 	b = #40000 1'b0;
@@ -72,8 +76,8 @@ end
 initial
 begin
 	sel = 1'b0;
-	sel = #120000 1'b1;
-	sel = #120000 1'b0;
+	sel = #80000 1'b1;
+	sel = #80000 1'b0;
 end 
 endmodule
 

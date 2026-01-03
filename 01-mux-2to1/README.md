@@ -87,6 +87,8 @@ Set the value Forcing High for all nodes in different period.
 
 ![image](https://github.com/yush2106/verilog-labs/blob/main/01-mux-2to1/img/01-mux-2to1-17.jpg)
 
+Run Functional Simulation.
+
 ![image](https://github.com/yush2106/verilog-labs/blob/main/01-mux-2to1/img/01-mux-2to1-18.jpg)
 
 When input sel is **0**, output c value is a. When input sel is **1**, output c value is b.

@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/FPGA/verilog-labs/01-mux-2to1/simulation/qsim
 vhard_block
-Z1 !s110 1767445535
+Z1 !s110 1767452357
 !i10b 1
 !s100 BJR65j@hIJB@eRPkM<`DT2
 I:>47ZIOS9FdC1L4o@`NVh1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1767445536
+Z3 w1767452358
 Z4 8mux2to1.vo
 Z5 Fmux2to1.vo
 L0 139
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1767445535.000000
+Z7 !s108 1767452357.000000
 Z8 !s107 mux2to1.vo|
 Z9 !s90 -work|work|mux2to1.vo|
 !i113 1
@@ -53,11 +53,11 @@ R11
 vmux2to1_vlg_vec_tst
 R1
 !i10b 1
-!s100 ?e]?5R[KGd^>zJF>9d?>Y2
-I_2hV8R6a54KD95amboi023
+!s100 coEFha[H<jWn=RB62?B^[3
+I^0983FNT9UcN?6=L6A1QC0
 R2
 R0
-R3
+w1767452356
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 L0 29

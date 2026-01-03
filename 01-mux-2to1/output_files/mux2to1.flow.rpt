@@ -1,5 +1,5 @@
 Flow report for mux2to1
-Sat Jan 03 21:42:46 2026
+Sat Jan 03 22:59:16 2026
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sat Jan 03 21:42:44 2026       ;
+; Flow Status                        ; Successful - Sat Jan 03 22:59:16 2026       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; mux2to1                                     ;
 ; Top-level Entity Name              ; mux2to1                                     ;
@@ -99,7 +99,11 @@ refer to the applicable agreement for further details.
 ; Fitter               ; 00:00:06     ; 1.0                     ; 6118 MB             ; 00:00:12                           ;
 ; Assembler            ; 00:00:03     ; 1.0                     ; 4683 MB             ; 00:00:02                           ;
 ; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 4898 MB             ; 00:00:01                           ;
-; Total                ; 00:00:19     ; --                      ; --                  ; 00:00:31                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4635 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4643 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4635 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4647 MB             ; 00:00:01                           ;
+; Total                ; 00:00:20     ; --                      ; --                  ; 00:00:35                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -112,6 +116,10 @@ refer to the applicable agreement for further details.
 ; Fitter               ; i9-10900         ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; i9-10900         ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; i9-10900         ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; i9-10900         ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; i9-10900         ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; i9-10900         ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; i9-10900         ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -122,6 +130,10 @@ quartus_map --read_settings_files=on --write_settings_files=off mux2to1 -c mux2t
 quartus_fit --read_settings_files=off --write_settings_files=off mux2to1 -c mux2to1
 quartus_asm --read_settings_files=off --write_settings_files=off mux2to1 -c mux2to1
 quartus_sta mux2to1 -c mux2to1
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off mux2to1 -c mux2to1 --vector_source=D:/FPGA/verilog-labs/01-mux-2to1/Waveform.vwf --testbench_file=D:/FPGA/verilog-labs/01-mux-2to1/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/FPGA/verilog-labs/01-mux-2to1/simulation/qsim/ mux2to1 -c mux2to1
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off mux2to1 -c mux2to1 --vector_source=D:/FPGA/verilog-labs/01-mux-2to1/Waveform.vwf --testbench_file=D:/FPGA/verilog-labs/01-mux-2to1/simulation/qsim/Waveform.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=D:/FPGA/verilog-labs/01-mux-2to1/simulation/qsim/ mux2to1 -c mux2to1
 
 
 
