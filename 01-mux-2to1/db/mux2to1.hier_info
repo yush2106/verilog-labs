@@ -1,0 +1,8 @@
+|mux2to1
+a => a_g_a.IN0
+b => a_g_b.IN0
+sel => a_g_b.IN1
+sel => a_g_a.IN1
+c << o_g.DB_MAX_OUTPUT_PORT_TYPE
+
+

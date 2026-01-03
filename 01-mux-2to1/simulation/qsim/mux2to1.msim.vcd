@@ -1,0 +1,118 @@
+$comment
+	File created using the following command:
+		vcd file mux2to1.msim.vcd -direction
+$end
+$date
+	Sat Jan 03 21:05:36 2026
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module mux2to1_vlg_vec_tst $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # sel $end
+$var wire 1 $ c $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + c~output_o $end
+$var wire 1 , b~input_o $end
+$var wire 1 - sel~input_o $end
+$var wire 1 . a~input_o $end
+$var wire 1 / o_g~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+x+
+0,
+0-
+0.
+x/
+$end
+#3612
+0/
+#9670
+0+
+0$
+#40000
+1!
+#40700
+1.
+#43620
+1/
+#49546
+1+
+1$
+#80000
+1"
+0!
+#80700
+1,
+#80806
+0.
+#83965
+0/
+#90023
+0+
+0$
+#120000
+1#
+0"
+1!
+#120700
+1.
+1-
+#120806
+0,
+#123620
+1/
+#124562
+0/
+#160000
+1"
+0!
+#160700
+1,
+#160806
+0.
+#164186
+1/
+#170112
+1+
+1$
+#200000
+0"
+#200806
+0,
+#204562
+0/
+#210620
+0+
+0$
+#240000
+0#
+#240806
+0-
+#1000000
