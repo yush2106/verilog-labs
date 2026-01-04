@@ -1,0 +1,34 @@
+|mux4to1
+i[0] => i[0].IN1
+i[1] => i[1].IN1
+i[2] => i[2].IN1
+i[3] => i[3].IN1
+s[0] => s[0].IN2
+s[1] => s[1].IN1
+y << mux2to1:mux_tmp2.c
+
+
+|mux4to1|mux2to1:mux_tmp0
+a => a_g_a.IN0
+b => a_g_b.IN0
+sel => a_g_b.IN1
+sel => a_g_a.IN1
+c <= o_g.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4to1|mux2to1:mux_tmp1
+a => a_g_a.IN0
+b => a_g_b.IN0
+sel => a_g_b.IN1
+sel => a_g_a.IN1
+c <= o_g.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux4to1|mux2to1:mux_tmp2
+a => a_g_a.IN0
+b => a_g_b.IN0
+sel => a_g_b.IN1
+sel => a_g_a.IN1
+c <= o_g.DB_MAX_OUTPUT_PORT_TYPE
+
+

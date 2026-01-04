@@ -1,0 +1,8 @@
+module mux4to1(i, s, Y);
+  input wire [3:0]i;
+  input wire [3:0]s0;
+  output wire Y;
+
+  
+
+endmodule
