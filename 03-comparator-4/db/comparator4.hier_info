@@ -1,0 +1,36 @@
+|block_comparator4
+LEDR[0] <= comparator4:inst.c[0]
+LEDR[1] <= comparator4:inst.c[1]
+LEDR[2] <= comparator4:inst.c[2]
+SW[0] => comparator4:inst.a[0]
+SW[1] => comparator4:inst.a[1]
+SW[2] => comparator4:inst.a[2]
+SW[3] => comparator4:inst.a[3]
+SW[4] => comparator4:inst.b[0]
+SW[5] => comparator4:inst.b[1]
+SW[6] => comparator4:inst.b[2]
+SW[7] => comparator4:inst.b[3]
+
+
+|block_comparator4|comparator4:inst
+a[0] => LessThan0.IN4
+a[0] => Equal0.IN3
+a[1] => LessThan0.IN3
+a[1] => Equal0.IN2
+a[2] => LessThan0.IN2
+a[2] => Equal0.IN1
+a[3] => LessThan0.IN1
+a[3] => Equal0.IN0
+b[0] => LessThan0.IN8
+b[0] => Equal0.IN7
+b[1] => LessThan0.IN7
+b[1] => Equal0.IN6
+b[2] => LessThan0.IN6
+b[2] => Equal0.IN5
+b[3] => LessThan0.IN5
+b[3] => Equal0.IN4
+c[0] <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+

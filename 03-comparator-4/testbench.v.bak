@@ -1,0 +1,31 @@
+`time 1ns/1ns
+
+module testbench;
+  reg [3:0] a_in;
+  reg [3:0] b_in;
+  reg [2:0] c_cout;
+
+  comparator4 UUT(
+    .a(a_in)
+	 , .b(b_in)
+	 , .c(c_out)
+  );
+  
+  initial
+  begin
+    a_in = 4'b0000;
+	 b_in = 4'b0000;
+  
+    #10
+	 a_in = 4'b0001;
+	 b_in = 4'b0000;
+	 
+	 #10
+	 a_in = 4'b0000;
+	 b_in = 4'b0001;
+	 
+	 #10
+	 a_in = 4'b1010;
+	 b_in = 4'b1010;
+  end
+endmodule
