@@ -1,5 +1,5 @@
 EDA Netlist Writer report for comparator4
-Sun Jan 11 19:09:35 2026
+Tue Jan 13 22:29:20 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -37,7 +37,7 @@ on the Quartus Prime software download page.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sun Jan 11 19:09:35 2026 ;
+; EDA Netlist Writer Status ; Successful - Tue Jan 13 22:29:20 2026 ;
 ; Revision Name             ; comparator4                           ;
 ; Top-level Entity Name     ; block_comparator4                     ;
 ; Family                    ; Cyclone IV E                          ;
@@ -81,14 +81,14 @@ on the Quartus Prime software download page.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-    Info: Processing started: Sun Jan 11 19:09:34 2026
+    Info: Processing started: Tue Jan 13 22:29:19 2026
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off comparator4 -c comparator4
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file comparator4.vo in folder "D:/FPGA/verilog-labs/03-comparator-4/simulation/questa/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4679 megabytes
-    Info: Processing ended: Sun Jan 11 19:09:35 2026
+    Info: Processing ended: Tue Jan 13 22:29:20 2026
     Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 

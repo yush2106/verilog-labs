@@ -1,4 +1,4 @@
-## 4 Bit Comparator
+## 4 Bits Comparator
 
 This project creates a comparator, there are 2 input parameter for 4 bits signals.
 
@@ -6,7 +6,7 @@ Compare a, b input signal, then output 3 bits results.
 
 ![image](https://github.com/yush2106/verilog-labs/blob/main/03-comparator-4/img/03-comparator-4-01.jpg)
 
-| Status | c |
+| Conditions | c |
 |---|---|
 | a[3:0] > b[3:0] | 3'b001 |
 | a[3:0] = b[3:0] | 3'b010 |
@@ -169,11 +169,11 @@ Set a[3:0] is SW[3..0], b[3:0] is SW[7..4], c[2:0] is LEDR[2:0].
 
 Assignments -> Import Assignments
 
-Set input and output pins for Development Board Altera DE2-115.
+Load pin list to set input and output pins for the development board Altera DE2-115.
 
 ![image](https://github.com/yush2106/verilog-labs/blob/main/03-comparator-4/img/03-comparator-4-19.jpg)
 
-Save Block Diagram as file block_comparator4.bdf.
+Save the block diagram as file name block_comparator4.bdf.
 
 Project -> Set as Top-Level Entity
 
@@ -181,7 +181,7 @@ Project -> Set as Top-Level Entity
 
 Set unused pins as input tri-stated.
 
-![image](https://github.com/yush2106/verilog-labs/blob/main/01-mux-2to1/img/01-mux-2to1-24.jpg.jpg)
+![image](https://github.com/yush2106/verilog-labs/blob/main/01-mux-2to1/img/01-mux-2to1-24.jpg)
 
 ![image](https://github.com/yush2106/verilog-labs/blob/main/01-mux-2to1/img/01-mux-2to1-25.jpg)
 

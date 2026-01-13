@@ -1,0 +1,41 @@
+|block_decoder3to8
+LEDR[0] <= decoder3to8:inst.y[0]
+LEDR[1] <= decoder3to8:inst.y[1]
+LEDR[2] <= decoder3to8:inst.y[2]
+LEDR[3] <= decoder3to8:inst.y[3]
+LEDR[4] <= decoder3to8:inst.y[4]
+LEDR[5] <= decoder3to8:inst.y[5]
+LEDR[6] <= decoder3to8:inst.y[6]
+LEDR[7] <= decoder3to8:inst.y[7]
+SW[0] => decoder3to8:inst.d[0]
+SW[1] => decoder3to8:inst.d[1]
+SW[2] => decoder3to8:inst.d[2]
+
+
+|block_decoder3to8|decoder3to8:inst
+d[0] => y.IN1
+d[0] => y.IN1
+d[0] => y.IN1
+d[0] => y.IN1
+d[0] => y.IN1
+d[0] => y.IN1
+d[0] => y.IN1
+d[0] => y.IN1
+d[1] => y.IN0
+d[1] => y.IN0
+d[1] => y.IN0
+d[1] => y.IN0
+d[2] => y.IN1
+d[2] => y.IN1
+d[2] => y.IN1
+d[2] => y.IN1
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
