@@ -2,7 +2,7 @@
 
 There are 3 inputs and 8 outputs in the decoder.
 
-Compose 3 input signal, switch one bit of the output signals.
+Compose 3 input signals, then switch one bit of the output signals.
 
 ![image](https://github.com/yush2106/verilog-labs/blob/main/04-decoder-3to8/img/04-decoder-3to8-01.jpg)
 
@@ -105,10 +105,18 @@ Build a block diagram. Set the block diagram is Top-Level Entity.
 
 ![image](https://github.com/yush2106/verilog-labs/blob/main/04-decoder-3to8/img/04-decoder-3to8-03.jpg)
 
+When SW[0] to S[2] value is 3'b000, LEDR[0] to LEDR[7] value is 8'b11111110.
+
 ![image](https://github.com/yush2106/verilog-labs/blob/main/04-decoder-3to8/img/04-decoder-3to8-04.jpg)
+
+When SW[0] to S[2] value is 3'b011, LEDR[0] to LEDR[7] value is 8'b11110111.
 
 ![image](https://github.com/yush2106/verilog-labs/blob/main/04-decoder-3to8/img/04-decoder-3to8-05.jpg)
 
+When SW[0] to S[2] value is 3'b100, LEDR[0] to LEDR[7] value is 8'b11101111.
+
 ![image](https://github.com/yush2106/verilog-labs/blob/main/04-decoder-3to8/img/04-decoder-3to8-06.jpg)
+
+When SW[0] to S[2] value is 3'b111, LEDR[0] to LEDR[7] value is 8'b01111111.
 
 ![image](https://github.com/yush2106/verilog-labs/blob/main/04-decoder-3to8/img/04-decoder-3to8-07.jpg)
