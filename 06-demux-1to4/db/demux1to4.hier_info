@@ -1,0 +1,29 @@
+|block_demux1to4
+LEDR[0] <= demux1to4:inst.y[0]
+LEDR[1] <= demux1to4:inst.y[1]
+LEDR[2] <= demux1to4:inst.y[2]
+LEDR[3] <= demux1to4:inst.y[3]
+SW[0] => demux1to4:inst.s[0]
+SW[1] => demux1to4:inst.s[1]
+SW[2] => demux1to4:inst.d
+
+
+|block_demux1to4|demux1to4:inst
+d => y.IN1
+d => y.IN1
+d => y.IN1
+d => y.IN1
+s[0] => y.IN0
+s[0] => y.IN0
+s[0] => y.IN0
+s[0] => y.IN0
+s[1] => y.IN1
+s[1] => y.IN1
+s[1] => y.IN1
+s[1] => y.IN1
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

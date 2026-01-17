@@ -1,0 +1,19 @@
+timescale 1ns/1ns
+
+module();
+
+reg d_in;
+reg s[1:0];
+reg[3:1] output;
+
+initial
+begin
+  d_in = 0;
+  s = 2'b00;
+  
+  #10;  //10ns
+  
+  
+  
+
+endmodule

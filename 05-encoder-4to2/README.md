@@ -56,7 +56,7 @@ end
 endmodule
 ```
 
-Step 4: Simulation
+Step 3: Simulation
 
 When d[3:0] value is 4'b0001, y[1:0] is value 2'b00.
 
@@ -68,7 +68,7 @@ When d[3:0] value is 4'b1000, y[1:0] is value 2'b11.
 
 ![image](https://github.com/yush2106/verilog-labs/blob/main/05-encoder-4to2/img/05-encoder-4to2-02.jpg)
 
-Step 5: Hardware Emulation
+Step 4: Hardware Emulation
 
 Set SW0 to SW3 for input d[3:0], LEDR0 to LEDR1 for output y[1:0].
 
