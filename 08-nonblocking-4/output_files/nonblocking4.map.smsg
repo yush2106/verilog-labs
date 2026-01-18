@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at nonblocking4.v(8): always construct contains both blocking and non-blocking assignments File: D:/FPGA/verilog-labs/08-nonblocking-4/nonblocking4.v Line: 8

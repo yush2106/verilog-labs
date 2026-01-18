@@ -1,0 +1,11 @@
+module blocking4(
+  input wire d
+  , input wire Clock
+  , input wire Reset
+  , output reg[3:0] out
+);
+
+
+
+
+endmodule
