@@ -1,0 +1,23 @@
+module ALU_4(
+  input wire[3:0] A
+  , input wire[3:0] B
+  , input wire[3:0] Sel
+  , output reg[3:0] Y
+);
+
+always @(*)
+begin
+  case(Sel)
+    3'b000: Y = A + B;  //add
+	 3'b001: Y = A - B;  //sub
+	 3'b010: Y = A & B;  //and
+	 3'b011: Y = A | B;  //or
+	 3'b100: Y = A ^ B;  //xor
+	 3'b101: Y = ~A;  //not
+	 3'b110: Y = ~(A & B);  //not and
+	 3'b111: Y = ~(A | B);  //not or
+	 default: Y = 4'b0000;
+end
+
+
+endmodule
