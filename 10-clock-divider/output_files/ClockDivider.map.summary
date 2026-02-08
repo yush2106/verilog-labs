@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Feb  8 09:52:07 2026
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : ClockDivider
+Top-level Entity Name : Block_ClockDivider
+Family : Cyclone IV E
+Total logic elements : 35
+    Total combinational functions : 35
+    Dedicated logic registers : 25
+Total registers : 25
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

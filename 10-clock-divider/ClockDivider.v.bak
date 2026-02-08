@@ -1,0 +1,12 @@
+module ClockDivider(
+  input clk
+  , input rst
+  , output clk_out
+);
+
+  wire clk, rst;
+  reg clk_out;
+  
+  
+
+endmodule

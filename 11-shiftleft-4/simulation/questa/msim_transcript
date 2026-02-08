@@ -1,0 +1,174 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 win64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do ShiftLeft4_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is user@I9-10900.
+# vlib rtl_work
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Errors: 0, Warnings: 1
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap work rtl_work 
+# Copying c:/altera_lite_24.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/verilog-labs/11-shiftleft-4 {D:/FPGA/verilog-labs/11-shiftleft-4/ShiftLeft4.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 09:14:50 on Feb 08,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA/verilog-labs/11-shiftleft-4" D:/FPGA/verilog-labs/11-shiftleft-4/ShiftLeft4.v 
+# -- Compiling module ShiftLeft4
+# 
+# Top level modules:
+# 	ShiftLeft4
+# End time: 09:14:50 on Feb 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/verilog-labs/11-shiftleft-4 {D:/FPGA/verilog-labs/11-shiftleft-4/testbench.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 09:14:51 on Feb 08,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/FPGA/verilog-labs/11-shiftleft-4" D:/FPGA/verilog-labs/11-shiftleft-4/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:14:51 on Feb 08,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 09:14:51 on Feb 08,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.testbench(fast)
+# Loading work.ShiftLeft4(fast)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: user  Hostname: I9-10900  ProcessID: 18368
+#           Attempting to use alternate WLF file "./wlftzzz2nk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftzzz2nk
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0d_in=0, clk=0, rst=0, y=0000
+#                    5d_in=0, clk=1, rst=0, y=0000
+#                   10d_in=0, clk=0, rst=0, y=0000
+#                   15d_in=0, clk=1, rst=0, y=0000
+#                   20d_in=1, clk=0, rst=0, y=0000
+#                   25d_in=1, clk=1, rst=0, y=0000
+#                   30d_in=1, clk=0, rst=0, y=0000
+#                   35d_in=1, clk=1, rst=0, y=0000
+#                   40d_in=1, clk=0, rst=0, y=0000
+#                   45d_in=1, clk=1, rst=1, y=0001
+#                   50d_in=1, clk=0, rst=1, y=0001
+#                   55d_in=1, clk=1, rst=1, y=0011
+#                   60d_in=1, clk=0, rst=1, y=0011
+#                   65d_in=1, clk=1, rst=1, y=0111
+#                   70d_in=1, clk=0, rst=1, y=0111
+#                   75d_in=1, clk=1, rst=1, y=1111
+#                   80d_in=1, clk=0, rst=1, y=1111
+#                   85d_in=1, clk=1, rst=1, y=1111
+#                   90d_in=1, clk=0, rst=1, y=1111
+#                   95d_in=0, clk=1, rst=1, y=1110
+#                  100d_in=0, clk=0, rst=1, y=1110
+#                  105d_in=0, clk=1, rst=1, y=1100
+#                  110d_in=0, clk=0, rst=1, y=1100
+#                  115d_in=0, clk=1, rst=1, y=1000
+#                  120d_in=0, clk=0, rst=1, y=1000
+#                  125d_in=1, clk=1, rst=1, y=0001
+#                  130d_in=1, clk=0, rst=1, y=0001
+#                  135d_in=1, clk=1, rst=1, y=0011
+#                  140d_in=1, clk=0, rst=1, y=0011
+#                  145d_in=1, clk=1, rst=0, y=0000
+#                  150d_in=1, clk=0, rst=0, y=0000
+#                  155d_in=1, clk=1, rst=0, y=0000
+#                  160d_in=1, clk=0, rst=0, y=0000
+#                  165d_in=1, clk=1, rst=0, y=0000
+#                  170d_in=1, clk=0, rst=0, y=0000
+#                  175d_in=0, clk=1, rst=0, y=0000
+#                  180d_in=0, clk=0, rst=0, y=0000
+#                  185d_in=0, clk=1, rst=0, y=0000
+#                  190d_in=0, clk=0, rst=0, y=0000
+#                  195d_in=0, clk=1, rst=0, y=0000
+#                  200d_in=0, clk=0, rst=0, y=0000
+#                  205d_in=0, clk=1, rst=0, y=0000
+#                  210d_in=0, clk=0, rst=0, y=0000
+#                  215d_in=1, clk=1, rst=0, y=0000
+#                  220d_in=1, clk=0, rst=0, y=0000
+#                  225d_in=1, clk=1, rst=0, y=0000
+#                  230d_in=1, clk=0, rst=0, y=0000
+#                  235d_in=1, clk=1, rst=0, y=0000
+#                  240d_in=1, clk=0, rst=0, y=0000
+#                  245d_in=1, clk=1, rst=1, y=0001
+#                  250d_in=1, clk=0, rst=1, y=0001
+#                  255d_in=1, clk=1, rst=1, y=0011
+#                  260d_in=1, clk=0, rst=1, y=0011
+#                  265d_in=1, clk=1, rst=1, y=0111
+#                  270d_in=1, clk=0, rst=1, y=0111
+#                  275d_in=1, clk=1, rst=1, y=1111
+#                  280d_in=1, clk=0, rst=1, y=1111
+#                  285d_in=0, clk=1, rst=1, y=1110
+#                  290d_in=0, clk=0, rst=1, y=1110
+#                  295d_in=0, clk=1, rst=1, y=1100
+#                  300d_in=0, clk=0, rst=1, y=1100
+#                  305d_in=0, clk=1, rst=1, y=1000
+#                  310d_in=0, clk=0, rst=1, y=1000
+#                  315d_in=0, clk=1, rst=1, y=0000
+#                  320d_in=0, clk=0, rst=1, y=0000
+#                  325d_in=0, clk=1, rst=1, y=0000
+#                  330d_in=0, clk=0, rst=1, y=0000
+#                  335d_in=0, clk=1, rst=1, y=0000
+#                  340d_in=0, clk=0, rst=1, y=0000
+#                  345d_in=0, clk=1, rst=1, y=0000
+#                  350d_in=0, clk=0, rst=1, y=0000
+#                  355d_in=0, clk=1, rst=1, y=0000
+#                  360d_in=0, clk=0, rst=1, y=0000
+#                  365d_in=0, clk=1, rst=1, y=0000
+#                  370d_in=0, clk=0, rst=1, y=0000
+#                  375d_in=0, clk=1, rst=1, y=0000
+#                  380d_in=0, clk=0, rst=1, y=0000
+#                  385d_in=0, clk=1, rst=1, y=0000
+#                  390d_in=0, clk=0, rst=1, y=0000
+#                  395d_in=0, clk=1, rst=1, y=0000
+#                  400d_in=0, clk=0, rst=1, y=0000
+#                  405d_in=0, clk=1, rst=1, y=0000
+#                  410d_in=0, clk=0, rst=1, y=0000
+#                  415d_in=0, clk=1, rst=1, y=0000
+#                  420d_in=0, clk=0, rst=1, y=0000
+#                  425d_in=0, clk=1, rst=1, y=0000
+#                  430d_in=0, clk=0, rst=1, y=0000
+#                  435d_in=0, clk=1, rst=1, y=0000
+#                  440d_in=0, clk=0, rst=1, y=0000
+#                  445d_in=0, clk=1, rst=1, y=0000
+#                  450d_in=0, clk=0, rst=1, y=0000
+#                  455d_in=0, clk=1, rst=1, y=0000
+#                  460d_in=0, clk=0, rst=1, y=0000
+#                  465d_in=0, clk=1, rst=1, y=0000
+#                  470d_in=0, clk=0, rst=1, y=0000
+#                  475d_in=0, clk=1, rst=1, y=0000
+#                  480d_in=0, clk=0, rst=1, y=0000
+#                  485d_in=0, clk=1, rst=1, y=0000
+#                  490d_in=0, clk=0, rst=1, y=0000
+#                  495d_in=0, clk=1, rst=1, y=0000
+# ** Note: $stop    : D:/FPGA/verilog-labs/11-shiftleft-4/testbench.v(42)
+#    Time: 500 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at D:/FPGA/verilog-labs/11-shiftleft-4/testbench.v line 42

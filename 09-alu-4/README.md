@@ -130,7 +130,7 @@ endmodule
 Step 3: Simulation
 
 A is 4'b0110, both unsingned value and singned value are 6.
-B is 4'b1011, unsingned value is 11, but singned value are -5.
+B is 4'b1011, unsingned value is 11, but singned value is -5.
 
 When Sel is 4'b0000, A + B for output Y is 4'b0001.
 In unsigned type, 6 + 11 = 17, then carry index is 1'b1 for 16.

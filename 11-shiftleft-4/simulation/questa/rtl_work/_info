@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+!s12c _opt
+R0
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/FPGA/verilog-labs/11-shiftleft-4/simulation/questa
+T_opt
+!s110 1770471702
+VnWKNGjUPQMVF_Cl6kmoJ=1
+Z2 04 9 4 work testbench fast 0
+=1-18c04d686960-69874115-34a-47c0
+R0
+Z3 !s12f OEM100
+Z4 !s12b OEM100
+Z5 !s124 OEM10U2 
+Z6 !s135 nogc
+Z7 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2024.3;79
+R1
+T_opt1
+!s110 1770513294
+VTZTLh@Di_Emj@Z9GZX0BK0
+R2
+=1-18c04d686960-6987e38c-1a2-288c
+R0
+R3
+R4
+R5
+R6
+R7
+R8
+n@_opt1
+R9
+vShiftLeft4
+2D:/FPGA/verilog-labs/11-shiftleft-4/ShiftLeft4.v
+!s110 1770513290
+!i10b 1
+!s100 ZIeYN<ndmoiEZ9H`A0d<a1
+IWi52nHUTG3R^E885>=B]i2
+R1
+w1770513008
+8D:/FPGA/verilog-labs/11-shiftleft-4/ShiftLeft4.v
+FD:/FPGA/verilog-labs/11-shiftleft-4/ShiftLeft4.v
+!i122 0
+L0 1 30
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2024.3;79
+r1
+!s85 0
+31
+!s108 1770513290.000000
+!s107 D:/FPGA/verilog-labs/11-shiftleft-4/ShiftLeft4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/verilog-labs/11-shiftleft-4|D:/FPGA/verilog-labs/11-shiftleft-4/ShiftLeft4.v|
+!i113 0
+Z12 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -vlog01compat -work work +incdir+D:/FPGA/verilog-labs/11-shiftleft-4 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
+n@shift@left4
+vtestbench
+2D:/FPGA/verilog-labs/11-shiftleft-4/testbench.v
+!s110 1770513291
+!i10b 1
+!s100 ;zT6?7dIIzV`30HWU]65@1
+IJH1cHfAXlH_V<cT`[U=7[0
+R1
+w1770513208
+8D:/FPGA/verilog-labs/11-shiftleft-4/testbench.v
+FD:/FPGA/verilog-labs/11-shiftleft-4/testbench.v
+!i122 1
+L0 2 43
+R10
+R11
+r1
+!s85 0
+31
+!s108 1770513291.000000
+!s107 D:/FPGA/verilog-labs/11-shiftleft-4/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/verilog-labs/11-shiftleft-4|D:/FPGA/verilog-labs/11-shiftleft-4/testbench.v|
+!i113 0
+R12
+R13
+R8

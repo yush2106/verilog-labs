@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at ShiftLeft4.v(16): always construct contains both blocking and non-blocking assignments File: D:/FPGA/verilog-labs/11-shiftleft-4/ShiftLeft4.v Line: 16
