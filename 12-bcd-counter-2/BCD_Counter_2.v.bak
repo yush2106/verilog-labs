@@ -1,0 +1,16 @@
+module BCD_Counter_2(
+  input wire clk
+  , output reg[6:0] Digit1
+  , output reg[6:0] Digit2
+);
+
+int d1_counter = 1;
+int d2_counter = 1;
+
+always @(posedge clk)
+begin
+  if(d1_counter > 9) begin
+  end
+end
+
+endmodule

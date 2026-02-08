@@ -172,3 +172,5 @@
 # ** Note: $stop    : D:/FPGA/verilog-labs/11-shiftleft-4/testbench.v(42)
 #    Time: 500 ns  Iteration: 0  Instance: /testbench
 # Break in Module testbench at D:/FPGA/verilog-labs/11-shiftleft-4/testbench.v line 42
+# End time: 11:39:15 on Feb 08,2026, Elapsed time: 2:24:24
+# Errors: 0, Warnings: 3

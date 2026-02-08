@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sun Feb  8 20:31:13 2026
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : BCD_Counter_2
+Top-level Entity Name : Block_BCDCounter
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 164 / 114,480 ( < 1 % )
+    Total combinational functions : 162 / 114,480 ( < 1 % )
+    Dedicated logic registers : 90 / 114,480 ( < 1 % )
+Total registers : 90
+Total pins : 16 / 529 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 0 / 3,981,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

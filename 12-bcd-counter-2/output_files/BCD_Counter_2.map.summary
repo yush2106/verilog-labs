@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Feb  8 20:31:01 2026
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : BCD_Counter_2
+Top-level Entity Name : Block_BCDCounter
+Family : Cyclone IV E
+Total logic elements : 162
+    Total combinational functions : 162
+    Dedicated logic registers : 90
+Total registers : 90
+Total pins : 16
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
