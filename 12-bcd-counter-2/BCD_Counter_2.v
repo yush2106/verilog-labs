@@ -35,32 +35,32 @@ end
 always @(d1_counter) begin
   case(d1_counter)
     0: Digit1 = 7'b1000000;
-	 1: Digit1 = 7'b1111001;
-	 2: Digit1 = 7'b0100100;
-	 3: Digit1 = 7'b0110000;
-	 4: Digit1 = 7'b0011001;
-	 5: Digit1 = 7'b0010010;
-	 6: Digit1 = 7'b0000010;
-	 7: Digit1 = 7'b1111000;
-	 8: Digit1 = 7'b0000000;
-	 9: Digit1 = 7'b0010000;
-	 default: Digit1 = 7'b1111111;
+    1: Digit1 = 7'b1111001;
+    2: Digit1 = 7'b0100100;
+    3: Digit1 = 7'b0110000;
+    4: Digit1 = 7'b0011001;
+    5: Digit1 = 7'b0010010;
+    6: Digit1 = 7'b0000010;
+    7: Digit1 = 7'b1111000;
+    8: Digit1 = 7'b0000000;
+    9: Digit1 = 7'b0010000;
+    default: Digit1 = 7'b1111111;
   endcase
 end
 
 always @(d2_counter) begin
   case(d2_counter)
     0: Digit2 = 7'b1111111;    //do not display
-	 1: Digit2 = 7'b1111001;
-	 2: Digit2 = 7'b0100100;
-	 3: Digit2 = 7'b0110000;
-	 4: Digit2 = 7'b0011001;
-	 5: Digit2 = 7'b0010010;
-	 6: Digit2 = 7'b0000010;
-	 7: Digit2 = 7'b1111000;
-	 8: Digit2 = 7'b0000000;
-	 9: Digit2 = 7'b0010000;
-	 default: Digit2 = 7'b1111111;
+    1: Digit2 = 7'b1111001;
+    2: Digit2 = 7'b0100100;
+    3: Digit2 = 7'b0110000;
+    4: Digit2 = 7'b0011001;
+    5: Digit2 = 7'b0010010;
+    6: Digit2 = 7'b0000010;
+    7: Digit2 = 7'b1111000;
+    8: Digit2 = 7'b0000000;
+    9: Digit2 = 7'b0010000;
+    default: Digit2 = 7'b1111111;
   endcase
 end
 

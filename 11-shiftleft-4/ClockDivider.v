@@ -6,7 +6,7 @@ module ClockDivider(
 
   reg[23:0] counter;
   
-  //DE2-115 Clock 50Mhz
+  //DE2-115 Clock 50MHz
   //for 0.5s pulse, count to 12.5Mhz to reverse signal
   localparam max_count = 12_500_000 - 1;
   

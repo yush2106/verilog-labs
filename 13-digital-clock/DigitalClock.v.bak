@@ -1,0 +1,13 @@
+module(
+  input wire clk
+  , input wire rst
+  , output reg[6:0] second_1
+  , output reg[6:0] second_2
+  , output reg[6:0] minute_1
+  , output reg[6:0] minute_2
+  , output reg[6:0] hour_1
+  , output reg[6:0] hour_2
+);
+
+
+endmodule

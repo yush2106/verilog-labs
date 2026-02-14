@@ -27,32 +27,32 @@
 # 
 # vlog  -work work +incdir+D:/FPGA/verilog-labs/04-decoder-3to8 {D:/FPGA/verilog-labs/04-decoder-3to8/decoder3to8.v}
 # Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 21:18:38 on Jan 13,2026
+# Start time: 01:06:38 on Feb 12,2026
 # vlog -reportprogress 300 -work work "+incdir+D:/FPGA/verilog-labs/04-decoder-3to8" D:/FPGA/verilog-labs/04-decoder-3to8/decoder3to8.v 
 # ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
 # -- Compiling module decoder3to8
 # 
 # Top level modules:
 # 	decoder3to8
-# End time: 21:18:38 on Jan 13,2026, Elapsed time: 0:00:00
+# End time: 01:06:38 on Feb 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog  -work work +incdir+D:/FPGA/verilog-labs/04-decoder-3to8 {D:/FPGA/verilog-labs/04-decoder-3to8/testbench.v}
 # Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
-# Start time: 21:18:38 on Jan 13,2026
+# Start time: 01:06:38 on Feb 12,2026
 # vlog -reportprogress 300 -work work "+incdir+D:/FPGA/verilog-labs/04-decoder-3to8" D:/FPGA/verilog-labs/04-decoder-3to8/testbench.v 
 # ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 21:18:38 on Jan 13,2026, Elapsed time: 0:00:00
+# End time: 01:06:38 on Feb 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
 # ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
-# Start time: 21:18:38 on Jan 13,2026
+# Start time: 01:06:39 on Feb 12,2026
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
 # ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
@@ -66,5 +66,5 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# End time: 22:46:08 on Jan 13,2026, Elapsed time: 1:27:30
+# End time: 01:08:12 on Feb 12,2026, Elapsed time: 0:01:33
 # Errors: 0, Warnings: 1
