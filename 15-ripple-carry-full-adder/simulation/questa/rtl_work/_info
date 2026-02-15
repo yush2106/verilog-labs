@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/FPGA/verilog-labs/15-ripple-carry-full-adder/simulation/questa
+T_opt
+!s110 1771167477
+VLYi@0HP^HCgF=4ZE9C@`z1
+04 9 4 work testbench fast 0
+=1-18c04d686960-6991def4-246-46bc
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U6 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2024.3;79
+vBinaryFullAdder
+2D:/FPGA/verilog-labs/15-ripple-carry-full-adder/BinaryFullAdder.v
+Z3 !s110 1771167475
+!i10b 1
+!s100 R>QbK7a=RM_2jlAE3oQS?2
+I9^QN>A9J7Eoa@Zd]E@9f32
+R1
+w1771159668
+8D:/FPGA/verilog-labs/15-ripple-carry-full-adder/BinaryFullAdder.v
+FD:/FPGA/verilog-labs/15-ripple-carry-full-adder/BinaryFullAdder.v
+!i122 1
+L0 1 12
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2024.3;79
+r1
+!s85 0
+31
+Z6 !s108 1771167475.000000
+!s107 D:/FPGA/verilog-labs/15-ripple-carry-full-adder/BinaryFullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/verilog-labs/15-ripple-carry-full-adder|D:/FPGA/verilog-labs/15-ripple-carry-full-adder/BinaryFullAdder.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+D:/FPGA/verilog-labs/15-ripple-carry-full-adder -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@binary@full@adder
+vRippleCarryAdder
+2D:/FPGA/verilog-labs/15-ripple-carry-full-adder/RippleCarryAdder.v
+R3
+!i10b 1
+!s100 1VDdG=_Y`e5>W3cg@Pj2o0
+Ija;l[]i7PfIJ:Z9JFU7Z03
+R1
+w1771159554
+8D:/FPGA/verilog-labs/15-ripple-carry-full-adder/RippleCarryAdder.v
+FD:/FPGA/verilog-labs/15-ripple-carry-full-adder/RippleCarryAdder.v
+!i122 0
+L0 1 19
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/FPGA/verilog-labs/15-ripple-carry-full-adder/RippleCarryAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/verilog-labs/15-ripple-carry-full-adder|D:/FPGA/verilog-labs/15-ripple-carry-full-adder/RippleCarryAdder.v|
+!i113 0
+R7
+R8
+R2
+n@ripple@carry@adder
+vtestbench
+2D:/FPGA/verilog-labs/15-ripple-carry-full-adder/testbench.v
+R3
+!i10b 1
+!s100 Fbk1j]`4J9OmIIU:in<2V3
+Ia>6CHVNWFjM?W3K;I1_B60
+R1
+w1771167416
+8D:/FPGA/verilog-labs/15-ripple-carry-full-adder/testbench.v
+FD:/FPGA/verilog-labs/15-ripple-carry-full-adder/testbench.v
+!i122 2
+L0 2 40
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/FPGA/verilog-labs/15-ripple-carry-full-adder/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/verilog-labs/15-ripple-carry-full-adder|D:/FPGA/verilog-labs/15-ripple-carry-full-adder/testbench.v|
+!i113 0
+R7
+R8
+R2
