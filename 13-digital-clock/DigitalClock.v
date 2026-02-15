@@ -218,7 +218,7 @@ always @(posedge clk, negedge rst) begin
           sec_digit1 <= sec_digit1 + 4'd1;
 	 end
 	 
-	 //hr_digit2
+    //hr_digit2
     hour_2 = DecodeDigit(hr_digit2);
     //hr_digit1
     hour_1 = DecodeDigit(hr_digit1);

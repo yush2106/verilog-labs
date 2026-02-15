@@ -1,0 +1,12 @@
+`timescale 1ns/1ns
+module testbench();
+
+reg [3:0]A;
+reg [3:0]B;
+reg c_in;
+wire [3:0]sum;
+wire c_out;
+
+
+
+endmodule

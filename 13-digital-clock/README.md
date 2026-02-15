@@ -4,6 +4,8 @@ This project builds a digital clock and utilizes the 7 segment display parts.
 
 On the DE2-115 development board, the second numbers are HEX2 and HEX3, minute numbers are HEX4 and HEX5, and hour numbers are HEX6 and HEX7.
 
+![image](https://github.com/yush2106/verilog-labs/blob/main/13-digital-clock/img/13-digital-clock-01.jpg)
+
 ## Process Step
 
 Step 1: Digital Clock
@@ -250,10 +252,10 @@ Step 2: Block Diagram
 
 When the switch, SW[0..0], is setted for reset opertation, it should connect to not gate.
 
-![image](https://github.com/yush2106/verilog-labs/blob/main/13-digital-clock/img/13-digital-clock-01.jpg)
+![image](https://github.com/yush2106/verilog-labs/blob/main/13-digital-clock/img/13-digital-clock-02.jpg)
 
 Step 3: Hardware Emulation
 
-When the KEY0 to KEY3 was pressed, minute value and hour value could add or subtract number.
+When the KEY0 to KEY3 buttons were pressed, they could add or subtract minute value and hour value.
 
-![image](https://github.com/yush2106/verilog-labs/blob/main/13-digital-clock/img/13-digital-clock-02.jpg)
+![image](https://github.com/yush2106/verilog-labs/blob/main/13-digital-clock/img/13-digital-clock-03.jpg)
