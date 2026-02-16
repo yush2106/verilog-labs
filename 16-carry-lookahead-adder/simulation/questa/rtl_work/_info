@@ -1,0 +1,78 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/verilog-labs/16-carry-lookahead-adder/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1771243805
+V:ER2J@43CD_]5jUR>YEaF1
+04 9 4 work testbench fast 0
+=1-a434d9e188ae-6993091c-51-1b8c
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U2 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vCarryLookaheadAdder
+2D:/verilog-labs/16-carry-lookahead-adder/CarryLookaheadAdder.v
+Z2 !s110 1771243802
+!i10b 1
+!s100 ?d=;SRdWAM?^TPm?z`6n:0
+IGcQ?:bANn`cP2>Z:jUh_l2
+R1
+w1771243708
+8D:/verilog-labs/16-carry-lookahead-adder/CarryLookaheadAdder.v
+FD:/verilog-labs/16-carry-lookahead-adder/CarryLookaheadAdder.v
+!i122 0
+L0 1 36
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z5 !s108 1771243802.000000
+!s107 D:/verilog-labs/16-carry-lookahead-adder/CarryLookaheadAdder.v|
+!s90 -reportprogress|300|-work|work|+incdir+D:/verilog-labs/16-carry-lookahead-adder|D:/verilog-labs/16-carry-lookahead-adder/CarryLookaheadAdder.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 -work work +incdir+D:/verilog-labs/16-carry-lookahead-adder -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0 defaultOptions 1085333592
+n@carry@lookahead@adder
+vtestbench
+2D:/verilog-labs/16-carry-lookahead-adder/testbench.v
+R2
+!i10b 1
+!s100 mI1hS=Vc]M;Z0;1nS6<j53
+IZb5W3lg4QIK_9oH7:FeUP1
+R1
+w1771232346
+8D:/verilog-labs/16-carry-lookahead-adder/testbench.v
+FD:/verilog-labs/16-carry-lookahead-adder/testbench.v
+!i122 1
+L0 2 40
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/verilog-labs/16-carry-lookahead-adder/testbench.v|
+!s90 -reportprogress|300|-work|work|+incdir+D:/verilog-labs/16-carry-lookahead-adder|D:/verilog-labs/16-carry-lookahead-adder/testbench.v|
+!i113 0
+R6
+R7
+R8

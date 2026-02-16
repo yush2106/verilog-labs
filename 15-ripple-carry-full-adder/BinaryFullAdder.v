@@ -7,6 +7,6 @@ module BinaryFullAdder(
 );
 
 assign sum = a ^ b ^ c_in;    //summation
-assign c_out = ((a & b) | c_in & (a ^ b));    //carry out
+assign c_out = ((a & b) | (c_in & (a ^ b)));    //carry out
 
 endmodule
