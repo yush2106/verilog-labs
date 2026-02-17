@@ -1,6 +1,6 @@
 EDA Netlist Writer report for CarryLookaheadAdder
-Mon Feb 16 20:25:00 2026
-Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+Mon Feb 16 22:01:23 2026
+Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
 ---------------------
@@ -37,7 +37,7 @@ on the Quartus Prime software download page.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Feb 16 20:25:00 2026 ;
+; EDA Netlist Writer Status ; Successful - Mon Feb 16 22:01:23 2026 ;
 ; Revision Name             ; CarryLookaheadAdder                   ;
 ; Top-level Entity Name     ; block_carry_lookahead                 ;
 ; Family                    ; Cyclone IV E                          ;
@@ -45,25 +45,25 @@ on the Quartus Prime software download page.
 +---------------------------+---------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Settings                                                                                                              ;
-+---------------------------------------------------------------------------------------------------+------------------------------+
-; Option                                                                                            ; Setting                      ;
-+---------------------------------------------------------------------------------------------------+------------------------------+
-; Tool Name                                                                                         ; Questa Altera FPGA (Verilog) ;
-; Generate functional simulation netlist                                                            ; On                           ;
-; Truncate long hierarchy paths                                                                     ; Off                          ;
-; Map illegal HDL characters                                                                        ; Off                          ;
-; Flatten buses into individual nodes                                                               ; Off                          ;
-; Maintain hierarchy                                                                                ; Off                          ;
-; Bring out device-wide set/reset signals as ports                                                  ; Off                          ;
-; Enable glitch filtering                                                                           ; Off                          ;
-; Do not write top level VHDL entity                                                                ; Off                          ;
-; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                          ;
-; Architecture name in VHDL output netlist                                                          ; structure                    ;
-; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                          ;
-; Generate third-party EDA tool command script for gate-level simulation                            ; Off                          ;
-+---------------------------------------------------------------------------------------------------+------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                             ;
++---------------------------------------------------------------------------------------------------+-----------------------------+
+; Option                                                                                            ; Setting                     ;
++---------------------------------------------------------------------------------------------------+-----------------------------+
+; Tool Name                                                                                         ; Questa Intel FPGA (Verilog) ;
+; Generate functional simulation netlist                                                            ; On                          ;
+; Truncate long hierarchy paths                                                                     ; Off                         ;
+; Map illegal HDL characters                                                                        ; Off                         ;
+; Flatten buses into individual nodes                                                               ; Off                         ;
+; Maintain hierarchy                                                                                ; Off                         ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                         ;
+; Enable glitch filtering                                                                           ; Off                         ;
+; Do not write top level VHDL entity                                                                ; Off                         ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                         ;
+; Architecture name in VHDL output netlist                                                          ; structure                   ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                         ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                         ;
++---------------------------------------------------------------------------------------------------+-----------------------------+
 
 
 +-----------------------------------------------------------------------------------+
@@ -80,14 +80,15 @@ on the Quartus Prime software download page.
 +-----------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
-    Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-    Info: Processing started: Mon Feb 16 20:24:59 2026
+    Info: Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+    Info: Processing started: Mon Feb 16 22:01:22 2026
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off CarryLookaheadAdder -c CarryLookaheadAdder
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (202000): An incorrect timescale is selected for the Verilog Output (.VO) file of this PLL design. It's required that the timescale should be 1 ps when simulating a PLL design in a third party EDA tool.
 Info (204019): Generated file CarryLookaheadAdder.vo in folder "D:/verilog-labs/16-carry-lookahead-adder/simulation/questa/" for EDA simulation tool
-Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4660 megabytes
-    Info: Processing ended: Mon Feb 16 20:25:00 2026
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4658 megabytes
+    Info: Processing ended: Mon Feb 16 22:01:23 2026
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

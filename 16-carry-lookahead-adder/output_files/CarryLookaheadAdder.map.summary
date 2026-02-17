@@ -1,5 +1,5 @@
-Analysis & Synthesis Status : Successful - Mon Feb 16 20:24:37 2026
-Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+Analysis & Synthesis Status : Successful - Mon Feb 16 22:01:00 2026
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 Revision Name : CarryLookaheadAdder
 Top-level Entity Name : block_carry_lookahead
 Family : Cyclone IV E

@@ -1,0 +1,13 @@
+module Subtractor4(
+  input wire[3:0] a
+  , input wire[3:0] b
+  , input wire[3:0] borrow_in
+  , output wire[3:0] diff
+  , output wire borrow_out
+);
+
+wire[3:0] b_mod;
+assign b_mod = 
+
+
+endmodule

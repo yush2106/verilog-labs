@@ -1,6 +1,6 @@
 Fitter report for CarryLookaheadAdder
-Mon Feb 16 20:24:50 2026
-Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
+Mon Feb 16 22:01:13 2026
+Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
 ---------------------
@@ -64,8 +64,8 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Mon Feb 16 20:24:50 2026           ;
-; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
+; Fitter Status                      ; Successful - Mon Feb 16 22:01:13 2026           ;
+; Quartus Prime Version              ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                      ; CarryLookaheadAdder                             ;
 ; Top-level Entity Name              ; block_carry_lookahead                           ;
 ; Family                             ; Cyclone IV E                                    ;
@@ -2567,8 +2567,8 @@ Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file D:/verilog-labs/16-carry-lookahead-adder/output_files/CarryLookaheadAdder.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 518 warnings
-    Info: Peak virtual memory: 5430 megabytes
-    Info: Processing ended: Mon Feb 16 20:24:50 2026
+    Info: Peak virtual memory: 5428 megabytes
+    Info: Processing ended: Mon Feb 16 22:01:13 2026
     Info: Elapsed time: 00:00:12
     Info: Total CPU time (on all processors): 00:00:19
 
